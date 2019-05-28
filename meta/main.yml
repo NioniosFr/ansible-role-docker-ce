@@ -1,0 +1,33 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: docker_ce
+  author: NioniosFr
+  description: An ansible role to install docker on RHEL based systems.
+  license: "license (MIT)"
+
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: Fedora
+      versions:
+        - 27
+        - 28
+        - 29
+
+    - name: EL
+      versions:
+        - 7
+
+  galaxy_tags:
+    - development
+    - system
+    - infrastructure
+    - orchestration
+    - automation
+    - docker
+    - compose
+    - clustering
+    - cloud
+    - container

@@ -1,0 +1,11 @@
+---
+
+# docker_version: "18.09.6" # Optional
+
+docker_user: "docker"
+docker_group: "docker"
+
+docker_proxy_env: []
+  # http_proxy: "" # Optional
+  # https_proxy: "" # Optional
+  # no_proxy: "" # Optional
